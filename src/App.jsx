@@ -1,16 +1,8 @@
-import Tea from './components/Tea'
-import './app.css'
+import Home from "./pages/Home";
+
 const App = () => {
-  return (
-    <article>
-      <Tea/>
-      <Tea/>
-      <Tea/>
-      <Tea/>
-      <Tea/>
-      <Tea/>
-    </article>
-  );
+ 
+  return <Home/>;
 }
 
 export default App;
