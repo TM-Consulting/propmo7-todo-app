@@ -1,0 +1,16 @@
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.on {
+  color: black;
+  background-color: white;
+}
+.off {
+  color: white;
+  background-color: black;
+}
