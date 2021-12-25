@@ -5,6 +5,7 @@ import { plusCounter, minusCounter, setName } from "./actions";
 const CounterContainer = () => {
   const dispatch = useDispatch();
   const counterData = useSelector((storeKamel) => storeKamel.counterState);
+  const testData = useSelector((storeKamel) => storeKamel.testState);
   const handleClick = (e) => {
     switch (e.target.id) {
       case "minus":
@@ -37,7 +38,7 @@ const CounterContainer = () => {
           placeholder="type your name"
           onChange={handleChange}
         />
-        <h1>{counterData.name}</h1>
+        <h1>{testData.comment}</h1>
       </div>
     </div>
   );
