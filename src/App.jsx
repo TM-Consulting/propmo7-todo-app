@@ -1,8 +1,8 @@
-import Home from "./pages/Home";
+import CounterContainer from "./containers/CounterContainer";
 
 const App = () => {
  
-  return <Home/>;
+  return <CounterContainer/>;
 }
 
 export default App;
